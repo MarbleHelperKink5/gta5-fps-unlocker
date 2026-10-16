@@ -1,0 +1,35 @@
+# Build artifacts
+build/
+out/
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.obj
+
+# Visual Studio / CMake
+.vs/
+.vscode/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.vcxproj*
+*.sln
+
+# C# / .NET
+[Bb]in/
+[Oo]bj/
+*.user
+
+# Runtime
+*.log
+gta5-fps-unlocker.log
+config/local.toml
+dumps/
+offsets_private.toml
+
+# OS
+Thumbs.db
+desktop.ini
