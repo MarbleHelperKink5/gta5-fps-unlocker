@@ -1,0 +1,9 @@
+# Byte signatures used to re-locate offsets after game updates.
+[fps]
+pattern = "48 8B 05 ? ? ? ? 48 85 C0 74 ? F3 0F 10"
+
+[stutter]
+pattern = "F3 0F 11 05 ? ? ? ? 48 8B C8 E8 ? ? ? ?"
+
+[shader]
+pattern = "C7 05 ? ? ? ? 00 00 00 40 48 8B 0D"
